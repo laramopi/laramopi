@@ -1,0 +1,22 @@
+print("+: soma, -: sub, **: expoente, *: multiplicação")
+op = input("selecione uma operação: ")
+n1 = int(input("digite o primeiro numero: "))
+n2 = int(input("digite o primeiro numero: "))
+
+if(op == "+"):
+  soma = n1 + n2
+  print("a soma dos 2 numeros é: ", soma)
+elif(op == "-"):
+  sub = n1 - n2
+  print("os numeros subtraidos são: ", sub)
+elif(op == "**"):
+  exp = n1 ** n2
+  print(f"o expoente é {exp}")
+elif(op == "*"):
+  multi = n1 * n2
+  print("os numeros multiplicados são: ", multi)
+elif(op == n1 / n2):
+  div = n1 / n2
+  print("a divisao dos numeros da: ", div)
+else:
+  print("opção invalida")
